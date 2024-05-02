@@ -1,0 +1,27 @@
+{
+    "seed": 0,
+    "device": "cuda:0",
+    "model_name": "LANET",
+    "dataset_name": "instacart_preprocessed",
+    
+    "cuda": 0,
+    "ablation" : false,
+    "ablation_note" : 6,
+
+    "debug_stop" : false,
+
+    "epoch": 3,
+
+    "early_stop_thr" : 3e-5,
+
+    "patience": 15,
+    "lr": 0.001,
+    "batch_size" : 8,
+    "eps" : 1e-05,
+    "betas" : [0.9, 0.999],
+    "scheduler_step" : 10,
+    "gamma" : 0.9, 
+
+    "log": "log.txt"
+
+}
